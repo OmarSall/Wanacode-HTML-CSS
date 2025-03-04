@@ -2,25 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Card</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="wrapper">
       <div class="portrait-column">
-        <img src="portrait.jpg" alt="John Smith">
+        <img src="image.jpg" alt="John Smith">
       </div>
       <div class="information-column">
         <div class="name-container">
-          <h2>John <br><span class="bold">SMITH</span></h2>
-          <p class="position">SOFTWARE DEVELOPER</p>
+          <div class="name-container-credentials">
+            <div class="name-container-name">John</div>
+            <div class="name-container-surname">SMITH</div>
+          </div>
+            <div class="name-container-job">SOFTWARE DEVELOPER</div>
         </div>
         <div class="contact-container">
-          <ul>
-            <li>✉<span> 350 5th Ave, New York, NY</span></li>
-            <li>✉<span> johnsmith@gmail.com</span></li>
-            <li>☎<span> 646 555 0198</span></li>
+          <ul class="contact-container-unordered-list">
+            <li class = "contact-container-list-item">
+              <div class="contact-container-list-item-img">
+                <img src="map-pin.svg" alt="icon" width="26" height="26">
+              </div>
+              <span class = "contact-container-text"> 350 5th Ave, New York, NY</span>
+            </li>
+            <li class = "contact-container-list-item">
+              <div class="contact-container-list-item-img">
+                <img src="mail.svg" alt="icon" width="26" height="26">
+              </div>
+              <span class = "contact-container-text"> johnsmith@gmail.com</span>
+            </li>
+            <li class = "contact-container-list-item">
+              <div class="contact-container-list-item-img">
+                <img src="phone.svg" alt="icon" width="26" height="26">
+              </div>
+              <span class = "contact-container-text"> 646 555 0198</span>
+            </li>
           </ul>
         </div>
       </div>
