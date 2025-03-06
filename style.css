@@ -4,7 +4,7 @@ html, body {
    align-items: center;
    height: 100%;
    margin: 0;
-   font-family: 'Roboto';
+   font-family: 'Roboto', sans-serif;
    font-style: normal;
    background: #f4f4f4;
 }
